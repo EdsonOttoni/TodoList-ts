@@ -18,7 +18,7 @@ const ListItem = ({ item }: PropsListItem) => {
       />
       <TextName done={isCheckedState}>{item.name}</TextName>
 
-      <RemoveTask />
+      {/* <RemoveTask /> */}
     </Container>
   )
 }
